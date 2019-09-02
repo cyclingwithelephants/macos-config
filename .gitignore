@@ -1,4 +1,4 @@
 .idea
-roles/elliotweiser.osx-command-line-tools/*
-roles/geerlingguy.mas/*
-roles/geerlingguy.homebrew/*
+roles/elliotweiser.osx-command-line-tools
+roles/geerlingguy.homebrew
+roles/geerlingguy.mas

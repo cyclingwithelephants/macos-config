@@ -50,6 +50,7 @@ homebrew_cask_apps:
   - omnioutliner
   - steam
   - notion
+  - send-to-kindle
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }

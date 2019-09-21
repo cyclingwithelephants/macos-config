@@ -53,6 +53,7 @@ homebrew_cask_apps:
   - steam
   - notion
   - send-to-kindle
+  - dropbox
 
 mas_installed_apps:
   - { id: 975937182, name: "Fantastical 2" }

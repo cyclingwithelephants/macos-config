@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - node
   - nomad
   - tflint
+  - tmux
 
 homebrew_cask_apps:
   - alfred

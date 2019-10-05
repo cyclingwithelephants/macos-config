@@ -47,7 +47,6 @@ homebrew_cask_apps:
   - keybase
   - parallels
   - google-drive-file-stream
-  - boxcryptor
   - freedom
   - microsoft-office
   - omnioutliner

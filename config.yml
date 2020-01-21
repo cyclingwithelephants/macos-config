@@ -14,6 +14,7 @@ homebrew_installed_packages:
   - tmux
 
 homebrew_cask_apps:
+  - firefox
   - alfred
   - iterm2
   - 1password
@@ -51,8 +52,8 @@ dockitems_to_persist:
   - name: Launchpad
     path: "/Applications/Launchpad.app"
     pos: 1
-  - name: Safari
-    path: /Applications/Safari.app
+  - name: Firefox
+    path: /Applications/Firefox.app
     pos: 2
   - name: iTerm
     path: /Applications/iTerm.app

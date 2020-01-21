@@ -19,6 +19,7 @@ homebrew_cask_apps:
   - iterm2
   - 1password
   - microsoft-office
+  - setapp
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }

@@ -17,6 +17,9 @@ homebrew_installed_packages:
   - saml2aws
   - awscli
   - tflint
+  - terraform
+  - packer
+  - vault
 
 homebrew_cask_apps:
   - firefox

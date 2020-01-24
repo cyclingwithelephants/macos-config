@@ -47,7 +47,9 @@ homebrew_cask_apps:
   - vagrant
   - parallels
   - omnioutliner
+  - omnifocus
   - dash
+  - zoom
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }

@@ -53,7 +53,7 @@ homebrew_cask_apps:
   - omnioutliner
   - omnifocus
   - dash
-  - zoom
+  - zoomus
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }

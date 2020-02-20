@@ -4,7 +4,7 @@ homebrew_taps:
   - versent/homebrew-taps
 
 homebrew_installed_packages:
-  - python2
+  - python@2
   - python3
   - node
   - rbenv
@@ -17,12 +17,16 @@ homebrew_installed_packages:
   - saml2aws
   - awscli
   - tflint
-  - terraform
   - packer
   - vault
   - mp3val
   - mp3splt
   - mosh
+  - tfenv
+  - terraform-docs
+  - go
+  - pre-commit
+  - gimme-aws-creds
 
 homebrew_cask_apps:
   - firefox
@@ -57,6 +61,7 @@ homebrew_cask_apps:
   - omnifocus
   - dash
   - zoomus
+  - fbreader
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }

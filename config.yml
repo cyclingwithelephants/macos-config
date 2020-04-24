@@ -27,6 +27,9 @@ homebrew_installed_packages:
   - go
   - pre-commit
   - gimme-aws-creds
+  - aws-iam-authenticator
+  - kubectl
+  - helm
 
 homebrew_cask_apps:
   - firefox
@@ -62,6 +65,7 @@ homebrew_cask_apps:
   - dash
   - zoomus
   - fbreader
+  - agenda
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
@@ -134,4 +138,4 @@ dockitems_to_persist:
     path: "/Applications/System Preferences.app"
     pos: 8
 
-wallpaper_file: janky.jpg
+wallpaper_file: cross.jpg

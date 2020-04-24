@@ -66,6 +66,7 @@ homebrew_cask_apps:
   - zoomus
   - fbreader
   - agenda
+  - expressvpn
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }

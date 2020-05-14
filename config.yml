@@ -67,9 +67,11 @@ homebrew_cask_apps:
   - fbreader
   - agenda
   - expressvpn
+  - pomodone
 
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
+  - { id: 585829637,  name: "Todoist" }
   - { id: 975937182, name: "Fantastical 2" }
   - { id: 1091189122, name: "Bear"}
   - { id: 451907568, name: "Paprika Recipe Manager" }
@@ -112,6 +114,7 @@ dockitems_to_remove:
   - News
   - Podcasts
   - TV
+  - OmniFocus
 
 dockitems_to_persist:
   - name: Launchpad
@@ -123,8 +126,8 @@ dockitems_to_persist:
   - name: iTerm
     path: /Applications/iTerm.app
     pos: 3
-  - name: OmniFocus
-    path: "/Applications/OmniFocus.app"
+  - name: Todoist
+    path: "/Applications/Todoist.app"
     pos: 4
   - name: Messages
     path: /System/Applications/Messages.app

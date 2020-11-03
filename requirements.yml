@@ -1,4 +1,4 @@
 ---
 - name: geerlingguy.homebrew
 - name: geerlingguy.mas
-- name: ericsysmin.gcloud
+- name: markosamuli.gcloud

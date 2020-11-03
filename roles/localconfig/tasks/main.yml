@@ -22,7 +22,7 @@
 
   
 - name: Run the dotfiles bootstrap.sh
-  command: "/Users/{{ homebrew_whoami.stdout }}/.config/mac-config/dotfiles/bootstrap.sh"
+  command: "/Users/{{ homebrew_whoami.stdout }}/.config/dotfiles/bootstrap.sh"
 
 - name: Install Pip Libraries
   pip:

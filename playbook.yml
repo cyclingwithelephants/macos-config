@@ -7,6 +7,6 @@
 
   roles:
     - geerlingguy.homebrew
-    - geerlingguy.mas
+#     - geerlingguy.mas
     - ericsysmin.gcloud
     - localconfig

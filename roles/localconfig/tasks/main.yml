@@ -15,6 +15,12 @@
     accept_hostkey: yes
     depth: 1
 
+- name: Ensure the dotfiles bootstrap.sh is executable
+  file:
+    path: "/Users/{{ homebrew_whoami.stdout }}/.config/mac-config/dotfiles/bootstrap.sh"
+    mode: '0644'
+
+  
 - name: Run the dotfiles bootstrap.sh
   command: "/Users/{{ homebrew_whoami.stdout }}/.config/mac-config/dotfiles/bootstrap.sh"
 

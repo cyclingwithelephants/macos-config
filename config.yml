@@ -18,19 +18,15 @@ homebrew_installed_packages:
   - tflint
   - packer
   - vault
-  - tfenv
   - terraform
   - terraform-docs
   - pre-commit
   - gawk
   - go
-  - gimme-aws-creds
-  - aws-iam-authenticator
-  - aws-sam-cli
   - ffmpeg
-  - gcloud
   - ripgrep
   - cowsay
+  - pbcopy
 
 
 homebrew_cask_apps:

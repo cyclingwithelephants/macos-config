@@ -23,3 +23,10 @@ Commands:
      ansible-galaxy install -r requirements.yml
      osascript -e 'tell application "Finder"' -e 'set _b to bounds of window of desktop' -e 'end tell'
      ansible-playbook playbook.yml -i inventory -K
+
+
+To bootstrap:
+
+```bash
+bash <(curl -Ls https://gist.github.com/cyclingwithelephants/ebd5107196aac60e22fdcab3de41b447)
+```

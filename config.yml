@@ -26,7 +26,6 @@ homebrew_installed_packages:
   - ffmpeg
   - ripgrep
   - cowsay
-  - pbcopy
 
 
 homebrew_cask_apps:

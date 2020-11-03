@@ -28,5 +28,5 @@ Commands:
 To bootstrap:
 
 ```bash
-bash <(curl -Ls https://gist.github.com/cyclingwithelephants/ebd5107196aac60e22fdcab3de41b447)
+bash <(curl -Ls https://gist.githubusercontent.com/cyclingwithelephants/ebd5107196aac60e22fdcab3de41b447/raw/69ffd80b9ee46131d2f4e44e584e80896d994cd1/bootstrap-ansible.sh)
 ```

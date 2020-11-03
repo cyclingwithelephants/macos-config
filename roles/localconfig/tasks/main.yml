@@ -10,14 +10,14 @@
   git:
     repo: "{{ dotfiles_repo }}"
     version: "{{ dotfiles_branch }}"
-    dest: "/Users/{{ homebrew_whoami.stdout }}/.config/mac-config/dotfiles"
+    dest: "/Users/{{ homebrew_whoami.stdout }}/.config/dotfiles"
     update: yes
     accept_hostkey: yes
     depth: 1
 
 - name: Ensure the dotfiles bootstrap.sh is executable
   file:
-    path: "/Users/{{ homebrew_whoami.stdout }}/.config/mac-config/dotfiles/bootstrap.sh"
+    path: "/Users/{{ homebrew_whoami.stdout }}/.config/dotfiles/bootstrap.sh"
     mode: '0755'
 
   

@@ -24,5 +24,6 @@
 # this needs to be here rather than inside dock.yml since it causes "No matching processes belonging to you were found" error otherwise
 - name: Restart the Dock
   shell: killall Dock
+  become: true
   
 - include_tasks: dotfiles.yml

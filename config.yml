@@ -26,6 +26,7 @@ homebrew_installed_packages:
   - ffmpeg
   - ripgrep
   - cowsay
+  - nvim
 
 
 homebrew_cask_apps:

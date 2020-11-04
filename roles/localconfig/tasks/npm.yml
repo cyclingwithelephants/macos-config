@@ -1,6 +1,0 @@
----
-- name: Install Node Packages
-  npm:
-    name: "{{ item }}"
-    global: yes
-  with_items: "{{ npm_items }}"

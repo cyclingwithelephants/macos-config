@@ -1,33 +1,6 @@
-# ---
-# - name: Get current account's username.
-#   shell: whoami
-#   register: homebrew_whoami
-#   changed_when: false
-#   check_mode: no
-  
-# - name: Update Homebrew
-#   shell: brew upgrade
-
-# - name: Update Homebrew Cask
-#   shell: brew cask upgrade
-
-# # - name: Set Wallpaper
-# #   shell: osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/{{ homebrew_whoami.stdout }}/Documents/wallpaper/{{ wallpaper_file }}"'
-
-
-# - include_tasks: oh-my-zsh.yml
-# - include_tasks: npm.yml
-# - include_tasks: ruby-gems.yml
-# - include_tasks: pip.yml
-
-# - include_tasks: dock.yml
-# # this needs to be here rather than inside dock.yml since it causes "No matching processes belonging to you were found" error otherwise
-# - name: Restart the Dock
-#   shell: killall Dock
-  
-# - include_tasks: dotfiles.yml
-
 ---
+- include_tasks: oh-my-zsh.yml
+
 - name: Get current account's username.
   shell: whoami
   register: homebrew_whoami

@@ -41,6 +41,7 @@
     version: "{{ dotfiles_branch }}"
     dest: "/Users/{{ homebrew_whoami.stdout }}/.config/dotfiles"
     update: yes
+    force: yes
     accept_hostkey: yes
     depth: 1
 

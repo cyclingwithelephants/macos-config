@@ -43,6 +43,7 @@ homebrew_cask_apps:
   - spotify
   - logitech-options
   - alacritty
+  - amethyst
 
 mas_installed_apps: []
 #   - { id: 405399194, name: "Kindle" }

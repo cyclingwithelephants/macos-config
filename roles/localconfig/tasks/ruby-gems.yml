@@ -1,4 +1,0 @@
-- name: Install Ruby Gems
-  gem:
-    name: "{{ item }}"
-  with_items: "{{ gem_items }}"

@@ -17,6 +17,3 @@
 
 - name: Resize the Dock
   shell: defaults write com.apple.dock tilesize -int 50
-  
-- name: Restart the Dock
-  shell: killall Dock

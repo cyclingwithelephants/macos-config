@@ -17,7 +17,7 @@
     force: yes
     accept_hostkey: yes
     depth: 1
-    become: true
+    debugger: on_failed
     
 - name: Ensure the dotfiles bootstrap.sh is executable
   file:

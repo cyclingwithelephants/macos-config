@@ -9,16 +9,19 @@
 
 # Clone dotfiles
 - name: Clone the dotfiles directory.
-  debugger: on_failed
   git:
-    repo: "{{ dotfiles_repo }}"
+    repo: "{{ dotfiles_repo_https }}"
     version: "{{ dotfiles_branch }}"
     dest: "/Users/{{ homebrew_whoami.stdout }}/.config/dotfiles"
     update: yes
     force: yes
     accept_hostkey: yes
     depth: 1
+# Ansible is struggling to clone over SSH, saying Permission denied (publickey) even though it's a public repo.
+# I'm switching to use HTTPS and overwriting origin afterwards so I can get on with my day.
 
+- name: set repo to use SSH instead of HTTPS
+  shell: "cd /Users/{{ homebrew_whoami.stdout }}/.config/dotfiles && git remote set-url origin {{ dotfiles_repo_ssh }}"
     
 - name: Ensure the dotfiles bootstrap.sh is executable
   file:

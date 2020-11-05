@@ -7,6 +7,5 @@
 
   roles:
     - geerlingguy.homebrew
-#     - geerlingguy.mas
     - localconfig
     - markosamuli.gcloud

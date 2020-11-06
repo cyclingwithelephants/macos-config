@@ -28,7 +28,11 @@ homebrew_installed_packages:
   - cowsay
   - nvim
   - rust
-
+  - aws-cli
+  - sls
+  - kubectl
+  - yarn
+  - pulumi
 
 homebrew_cask_apps:
   - bartender
@@ -45,6 +49,7 @@ homebrew_cask_apps:
   - logitech-options
   - alacritty
   - xquartz
+  - vscodium
 
 mas_installed_apps: []
 #   - { id: 405399194, name: "Kindle" }
@@ -56,8 +61,8 @@ pip_items:
 
 gem_items: []
 
-npm_items: []
-  
+npm_items: 
+  - typescript  
 
 dockitems_to_remove:
   - Siri

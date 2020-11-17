@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - kubectl
   - yarn
   - pulumi
+  - bazel
 
 homebrew_cask_apps:
   - bartender
@@ -50,6 +51,7 @@ homebrew_cask_apps:
   - alacritty
   - xquartz
   - vscodium
+  - discord
 
 mas_installed_apps: []
 #   - { id: 405399194, name: "Kindle" }

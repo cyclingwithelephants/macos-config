@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - yarn
   - pulumi
   - bazel
+  - docker
 
 homebrew_cask_apps:
   - bartender
